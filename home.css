@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-home {
+    height: 100%;
+    width: 100%;
+    background-color: #053E56;
+    color: #fff;
+    padding: 0 0 50px;
+}
+
+.content-home::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    display: flex;
+    float: left;
+}
+
+.left-Container {
+    padding: 50px 200px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.right-Container {
+    height: 100%;
+    border-radius: 5px;
+    margin: 20px -100px;
+    padding: 200px 0;
+}
+
+.para {
+    color: #02F161;
+    padding: 30px 0;
+}
+
+.content-left h1 {
+    font-size: 65px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.content-left p{
+    font-size: 26px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+#para1 {
+    padding: 60px 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.left-btns {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    margin: -60px 0 100px;
+}
+
+.btn-leftOne {
+    padding: 10px 30px 20px;
+    border: 2px solid ;
+    background-color: #0B87D3;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-leftOne a, .btn-leftTwo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 550;
+    align-items: center;
+}
+
+.btn-leftOne img, .btn-leftTwo img {
+    margin-left: 10px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.btn-leftTwo {
+    padding: 10px 30px 20px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    display: block;
+    width: auto;
+}
+
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-items {
+    align-items: center;
+    padding: 150px 50px 80px;
+    border: 2px solid #D0D4CA;
+    border-radius: 5px;
+    margin: -80px 30px 20px;
+    background-color: #fff;
+}
+
+.card-items a {
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.card-items img{
+    margin: -50px 0 0;
+    border: 2px solid black;
+    border-radius: 70px;
+    height: 130px;
+    padding: 20px;
+    width: 130px;
+}
+
+.card-items h2 {
+    padding: 10px 0;
+    font-size: 28px;
+    color: #053E56;
+}
+
+.card-items p {
+    padding: 10px 0;
+    color: #445069;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.video-content {
+    margin: 50px 0;
+    padding: 0 ;
+    text-align: center;
+}
+
+.video-content h1 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #053E56;
+}
+.video-content h2 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #053E56;
+}
+.video-content em {
+    color: #DD9933;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+.video-content em:hover {
+    color: black;
+}
+
+.video-content p {
+    font-size: 26px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    padding: 15px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px 220px;
+    margin: auto;
+}
+
+.vi-con-item {
+    margin: 15px;
+    padding: 0;
+    border: solid #fff;
+    border-radius: 5px;
+}
+.content-card {
+    width: 70%;
+    background-color: #053E56;
+    color: #fff;
+    padding: 0 0 50px;
+    border: 1px solid #053E56;
+    border-radius: 5px;
+    margin: 150px 250px;
+    height: auto;
+}
+
+.contentcard::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-Container-card {
+    padding: 0 30px;
+}
+.left-Container-card p{
+    font-size: 26px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.left-Container-card h2{
+    font-size: 40px;
+    font-family: "DM Serif Display", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+.right-Container-card {
+    border: 2px solid #0d87d4;
+    border-radius: 5px;
+    background-color: #0d87d4;
+    padding: 15px; 
+    margin: 80px;
+}
+
+.right-Container-card a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.8px;
+}
+
+#last-con {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #053E56;
+}

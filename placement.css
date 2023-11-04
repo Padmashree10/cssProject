@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-body {
+    background-color: #053E56;
+    color: #fff;
+    font-family: "DM Serif Display", Sans-serif;
+}
+
+.img-con {
+    margin: 50px;
+}

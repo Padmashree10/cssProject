@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+.heading-body {
+    margin: 10px;
+    padding-left: 250px;
+}
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.heading h1 {
+    font-size: 50px;
+    font-family: poppins, sans-serif;
+    padding: 5px 20px;
+}
+.heading p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+    padding:5px 20px;
+    margin: 5px;
+}
+
+.contact-body {
+    margin: 20px;
+}
+
+.contact-address {
+    margin: -20px;
+    border: 2px solid #F1F6F9;
+    background-color: #F1F6F9;
+    padding: 20px;
+}
+
+.contact-address::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+
+.left-Container {
+    padding: 150px 50px 50px;
+    margin: -60px;
+}
+
+.right-Container {
+    height: 100%;
+    padding: 10px 50px;
+    border: 2px solid #053E56;
+    border-radius: 5px;
+    background-color: #053E56;
+}
+
+.address-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    padding: 50% 0;
+    color: aliceblue;
+    text-align: center;
+}
+
+.address-content h1 {
+    font-size: 35px;
+    font-family: Fira Sans,sans-serif;
+    padding-bottom: 30px;
+}
+
+.address-content address {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Fira Sans,sans-serif;
+    word-spacing: 2px;
+    line-height: normal;
+}
+
+.address-content a {
+    padding-top: 50px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Fira Sans, sans-serif;
+    color: aliceblue;
+}
+
+.form-container {
+    padding: 20px 100px 20px 285px;
+}
+
+label {
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+input, textarea {
+    border: 2px solid #232D3F;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btnSub {
+    border: 2px solid #0d87d4;
+    border-radius: 6px;
+    padding: 10px 330px;
+    font-size: 26px;
+    background-color: #0d87d4;
+}
